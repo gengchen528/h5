@@ -62,11 +62,11 @@ $(window).on('deviceorientation', function(e) {
 //微信分享  失效了，有时间的可以根据官方公布的 JS-SDK进行开发
 
 var shareMeta = {
-	img_url: "http://www.imeiwen.com/2015/thumbnail.gif",
+	img_url: "http://image.bloggeng.com/qian.png",
 	image_width: 100,
 	image_height: 100,
-	link: 'http://www.imeiwen.com/2015/index.html',
-	title: "2015乙未羊，为自己摇枚新年签！",
+	link: 'http://h5.xkboke.com/draw/',
+	title: "2019己亥猪，为自己摇新年第一签",
 	desc: "这是对过去的感悟和对新年的祈望，希望它能为你带来好运...",
 	appid: ''
 };
