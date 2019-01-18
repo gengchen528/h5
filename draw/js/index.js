@@ -17,25 +17,25 @@ showDecode = function(){
 
 jumpToDecode = function(){
 	var urls = [
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601542&idx=1&sn=c788d7b644eb0e88867eb6c8c5cdb157#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601516&idx=1&sn=f099e1245475329b7b03e07d9a3d6878#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601499&idx=1&sn=3741bd14f6db2e91f5e9c1a3633565eb#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601447&idx=1&sn=1cb34f1cbc0bddd51ac1b47a7db5fee2#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601462&idx=1&sn=c396620fe76b29d2eed3012364946ea9#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601487&idx=1&sn=a33edb213cad7143773c403c0c3bc403#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601432&idx=1&sn=f157a6b3e21fb7f50816792138115d25#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211601405&idx=1&sn=2879e3adb3209ce79ec06c5ab26057dc#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598920&idx=1&sn=cc628327018cf9f637a8b3e2ecd98ace#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598882&idx=1&sn=c9ba09fb6d8583bd61e825d14e708c1e#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598438&idx=1&sn=948cef4383e8fae07dc07bb75602102c#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598245&idx=1&sn=347b044e158b3ce249de5274d0eb6a97#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598226&idx=1&sn=650482e374c9834f38ae204d9ecef5f5#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598171&idx=1&sn=b974c291e7a63548985c97c529a6b604#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598195&idx=1&sn=58881d0da007946abf45930953e57ae6#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598206&idx=1&sn=2438da193c66ce2e0f5a527957089373#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598144&idx=1&sn=b18cae7fa0b428c651f42122ebd4742d#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598130&idx=1&sn=f9291e48e41a007f9118847f65815433#rd", 
-	"http://mp.weixin.qq.com/s?__biz=MzA3Njk5ODcyNg==&mid=211598103&idx=1&sn=3c907e80005a3bf4e5462ec1076b3b32#rd"
+	"https://mp.weixin.qq.com/s/VGP1xQc9dGX6ouUv4pj6ZA",//自由
+	"https://mp.weixin.qq.com/s/hhbUVE8t4tHGOlM86aS0Qg",//转运
+	"https://mp.weixin.qq.com/s/E73nvD4PpuK1fEmJl33QNw",//知足
+	"https://mp.weixin.qq.com/s/BRRlm0wUSFu54wyLE_iSkA", //喜结
+	"https://mp.weixin.qq.com/s/KXn1psaXcvHProB_34Q5ug", //勇气
+	"https://mp.weixin.qq.com/s/8aYFTJeBp0lviETaNHWtRg", //佑儿
+	"https://mp.weixin.qq.com/s/vh8LnRcbBp4YR4RmOl9j5g", //温柔
+	"https://mp.weixin.qq.com/s/yUDUwA-aCq8k42U2sPBEvQ", //任性
+	"https://mp.weixin.qq.com/s/cNaYd6y-Bnw3ANU0tzygmw", //勤学
+	"https://mp.weixin.qq.com/s/jivIU5mJys07cotH2LZYLQ", //气愈
+	"https://mp.weixin.qq.com/s/iX-58_CL31p1psi2hDuJbA", //你谢见
+	"https://mp.weixin.qq.com/s/YNdaFfR0OM7Kjf1KzVRSFw", //蜜恋
+	"https://mp.weixin.qq.com/s/L3li5J4sWGFE3PKxoGm-kQ", //旅行
+	"https://mp.weixin.qq.com/s/itEi-7cRz0NpFACA46xwDw", //孤独
+	"https://mp.weixin.qq.com/s/zKH0grKlLSfFOUP83jkH3w", //利事
+	"https://mp.weixin.qq.com/s/oUr44ETBtrvniEYHKtSlGg", //良缘
+	"https://mp.weixin.qq.com/s/fZDmT-F_yhF3X3Ru3A1Yqg", //断舍离
+	"https://mp.weixin.qq.com/s/_frPrZhUdL23nFj7bynYWw", //白首
+	"https://mp.weixin.qq.com/s/7gthnQ4kLbEwoLsOf6rvEw" //安产
 	];
 	var jumpTo = urls[parseInt(Math.random() * urls.length)];
 	window.location = jumpTo;
